@@ -19,7 +19,7 @@ def speak_to_grandma(talk)
   elsif "#{talk}" == talk.upcase
     puts "NO, NOT SINCE 1938!"
     return "NO, NOT SINCE 1938!"
-  else "#{talk}" == talk.upcase =="I LOVE YOU GRANDMA!"
+  else "#{talk}" == talk.upcase == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
     return "I LOVE YOU TOO PUMPKIN!"
   end
