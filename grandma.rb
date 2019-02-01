@@ -13,8 +13,8 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(talk)
-  if "#{talk}" == talk.upcase
-    puts 
+  if "#{talk}" != talk.upcase
+    puts ""
     return 
   elsif #{talk}.upcase = true
     puts "NO, NOT SINCE 1938!"
