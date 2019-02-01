@@ -16,7 +16,7 @@ def speak_to_grandma(talk)
   if "#{talk}" != talk.upcase
     puts "HUH?! SPEAK UP, SONNY!"
     return "HUH?! SPEAK UP, SONNY!"
-  elsif "#{talk}" == talk.upcase && != "I LOVE YOU GRANDMA!"
+  elsif "#{talk}" == talk.upcase && !="I LOVE YOU GRANDMA!"
     puts "NO, NOT SINCE 1938!"
     return "NO, NOT SINCE 1938!"
   else "#{talk}" && talk == "I LOVE YOU GRANDMA!"
