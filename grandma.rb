@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(talk)
-  if #{talk} !!match(/\p{Upper})
+  if #{talk} == talk.upcase
     puts "I LOVE YOU TOO PUMPKIN!"
   elsif #{talk}.upcase = true
     puts "NO, NOT SINCE 1938!"
