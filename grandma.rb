@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(talk)
-  if #{talk} === talk.capitalize
+  if "#{talk}" == talk.capitalize
     puts "I LOVE YOU TOO PUMPKIN!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif #{talk}.upcase = true
