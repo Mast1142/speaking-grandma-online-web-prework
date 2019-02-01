@@ -18,7 +18,7 @@ def speak_to_grandma(talk)
   elsif #{talk}.upcase = true
     puts "NO, NOT SINCE 1938!"
   else #{talk} != #{talk}.upcase
-    puts "HUH?! SPEAK UP< SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
   end
 end
 
