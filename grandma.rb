@@ -21,6 +21,7 @@ def speak_to_grandma(talk)
     return "NO, NOT SINCE 1938!"
   else "#{talk}" == "I LOVE YOU, GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
+    return "I LOVE YOU TOO PUMPKIN!"
   end
 end
 
